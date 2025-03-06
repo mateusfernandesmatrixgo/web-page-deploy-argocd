@@ -11,7 +11,7 @@ spec:
       labels:
         app: webpage
     spec:
-      replicas: 3
+      replicas: 4
       containers:
       - name: webpage
         image: fabricioveronez/pagina-exemplo:green
