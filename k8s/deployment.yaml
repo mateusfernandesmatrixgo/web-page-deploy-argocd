@@ -11,10 +11,10 @@ spec:
       labels:
         app: webpage
     spec:
-      replicas: 2
+      replicas: 3
       containers:
       - name: webpage
-        image: fabricioveronez/pagina-exemplo:blue
+        image: fabricioveronez/pagina-exemplo:green
         ports:
         - containerPort: 80
 ---
